@@ -17,7 +17,7 @@
         <Button Content="Button" HorizontalAlignment="Left" Margin="137,0,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <DataGrid x:Name="dataByshow" HorizontalAlignment="Left" Margin="0,69,0,0" ItemsSource="{Binding}" AutoGenerateColumns="False" Width="517" MouseDoubleClick="datagrid_MouseDoubleClick">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="名称1" Width="90" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="名称2" Width="90" Binding="{Binding Name}" />
                 <DataGridTextColumn Header="单位" Width="40" Binding="{Binding Unit}" />
                 <DataGridComboBoxColumn Width="80" Header="性别" SelectedItemBinding="{Binding Sex}" ItemsSource="{Binding Source={StaticResource myEnum}}"/>
                 <DataGridCheckBoxColumn Header="是否通过考试" Width="100" Binding="{Binding Pass}"/>
